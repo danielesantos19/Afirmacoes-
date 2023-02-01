@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background: linear-gradient(90deg, rgb(69, 235, 235),rgb(218, 139, 152), rgb(82, 209, 139));
+    padding: 3%;
+    
+}
+.link  {
+    display: flex;
+    justify-content: right;
+    border: none;
+    background: none;
+     list-style: none;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+ li{border: 2px solid  rgb(48, 109, 173);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5px;
+    font-weight: bold;
+}
+li:hover{
+    font-size: 1.5rem;
+    background-color: lightblue;  
+}
+.cabecalho{
+    margin-top: 10px;
+}
+.cabecalho h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.cabecalho p{
+    font-size: 10px;
+    padding: 0 20%;
+}
+.cabecalho p:hover{
+    font-size: 20px;
+}
+.principal{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20% 0 0;
+    justify-content: center;
+    
+    
+}
+#frase-escolhida{
+    background: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border: 3px solid  rgb(48, 109, 173);
+    border-radius: 10px;
+    margin-left: 20px;
+}
+#frase-escolhida:hover{
+    background-color: lightblue;
+}
+.result{
+    margin-top: 8%;
+    text-align: center;
+    color: white;
+    background-color: rgb(76, 122, 214);
+    
+}
+footer{
+    position: fixed;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+
+}
+
