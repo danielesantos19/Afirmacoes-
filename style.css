@@ -44,9 +44,6 @@ li:hover{
     font-size: 10px;
     padding: 0 20%;
 }
-.cabecalho p:hover{
-    font-size: 20px;
-}
 .principal{
     margin-top: 20px;
     display: flex;
@@ -54,8 +51,6 @@ li:hover{
     justify-content: space-between;
     padding: 0 20% 0 0;
     justify-content: center;
-    
-    
 }
 #frase-escolhida{
     background: none;
@@ -77,12 +72,18 @@ li:hover{
     
 }
 footer{
-    position: fixed;
+    position: absolute;
     text-align: center;
-    left: 0;
     bottom: 0;
     height: 100px;
     width: 100%;
+    line-height: 100px;
 
 }
-
+@media(max-width:  796px){
+    body {
+      width:100%;} 
+    h1{
+      font-size: 25px;
+     margin: auto;
+    }
